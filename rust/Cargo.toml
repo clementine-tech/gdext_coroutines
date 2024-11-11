@@ -17,7 +17,7 @@ exclude = [
 crate-type = ["lib", "cdylib"]
 
 [dependencies]
-godot = { package = "godot", git = "https://github.com/godot-rust/gdext" }
+godot = { package = "godot", git = "https://github.com/clementine-tech/gdext" }
 smol = { version = "2.0", optional = true }
 
 [features]
